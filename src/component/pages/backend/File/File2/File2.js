@@ -6,7 +6,7 @@ import FileContext from '../../../../../context/file/fileContext'
 import Spinner from '../../../../laout/Spinner'
 import qs from 'qs'
 import axios from 'axios'
-import '../File1/File1.scss'
+import '../File2/File2.scss'
 import moment from 'moment'
 
 
@@ -243,7 +243,7 @@ const File2 = (props) => {
 
     if (loading) { return <Spinner></Spinner> }
     return (
-        <div className='File1'>
+        <div className='File2'>
             <div>
                 <Modal
                     title="添加文件"
