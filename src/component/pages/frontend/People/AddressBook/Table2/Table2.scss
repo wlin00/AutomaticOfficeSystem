@@ -1,0 +1,16 @@
+.Table2{
+    width: 100%;
+    &-search{
+        height: 70px;
+        display: flex;
+        justify-content: flex-start;
+        box-sizing: border-box;
+        align-items: center;
+        padding-left: 2%;
+    }
+    &-img{
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+    }
+}
